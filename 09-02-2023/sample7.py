@@ -1,0 +1,6 @@
+f1 = open("xyz.txt", "r")
+f2 = open("pqr.txt", "w")
+list_of_lines = f1.readlines()
+f2.writelines(list_of_lines)
+f1.close()
+f2.close()

@@ -1,0 +1,5 @@
+f = open("input.txt", "r")
+data = f.read()
+lst = list(map(int, data.split()))
+print(lst)
+print(sum(lst))

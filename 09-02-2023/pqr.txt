@@ -1,0 +1,3 @@
+this is python
+this is files
+this is read mode

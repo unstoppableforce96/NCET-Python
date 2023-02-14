@@ -1,0 +1,6 @@
+f = open("10-02-2023.jpg", "rb")
+f1 = open("sample.jpg", "wb")
+b = f.read()
+f1.write(b[:150000])
+f.close()
+f1.close()

@@ -1,0 +1,6 @@
+f = open("Nice simple.mp3", "rb")
+f1 = open("newaudiofile.mp3", "wb")
+bytes = f.read()
+f1.write(bytes[100000:])
+f.close()
+f1.close()
